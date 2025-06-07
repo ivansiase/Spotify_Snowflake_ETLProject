@@ -31,13 +31,14 @@ This pipeline automates the process of extracting data from Spotify, transformin
 ## 📁 Project Structure
 spotify-data-pipeline/
 │
-├── lambda/
-│ └── spotify_lambda_function.py
+├── AWS lambda/
+│ └── Extract_Spotify_Data.py
+  └── Transform_Spotify_Data.py
 │
 ├── snowflake/
-│ ├── create_table.sql
-│ ├── create_stage.sql
-│ ├── create_pipe.sql
+│ ├── Snowflake_SQL.sql
+│ ├── Storage_Integration.sql
+│ 
 │
 ├── s3/
 │ └── sample_output_data/
