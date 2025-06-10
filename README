@@ -40,7 +40,7 @@ spotify-data-pipeline/
 │ ├── Storage_Integration.sql
 │ 
 │
-├── s3/
+├── S3-Sample-Output/
 │── raw-data/    → stores unprocessed data pulled from Spotify API
 │ └── processed/
   └── to_process/
