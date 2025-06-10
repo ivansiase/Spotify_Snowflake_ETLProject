@@ -54,7 +54,7 @@ spotify-data-pipeline/
 
 ## 📚 Acknowledgement
 
-This project was inspired by the **Data Warehouse Project Course** by [Darshil Parmar](https://www.linkedin.com/in/darshilparmar/). The course provided the foundational concepts and structure for integrating Spotify, AWS, and Snowflake.
+This project was inspired by the "Data Warehouse for Data Engineering with Snowflake" by [Darshil Parmar](https://www.linkedin.com/in/darshilparmar/). The course provided the foundational concepts and structure for integrating Spotify, AWS, and Snowflake.
 
 All implementation, customization, and additional enhancements in this repository are my own work and reflect my personal understanding and learning.
 
