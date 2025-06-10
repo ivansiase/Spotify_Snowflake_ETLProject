@@ -41,8 +41,13 @@ spotify-data-pipeline/
 │ 
 │
 ├── s3/
-│ └── sample_output_data/
-│
+│── raw-data/    → stores unprocessed data pulled from Spotify API
+│ └── processed/
+  └── to_process/
+├── transform-data/ → stores cleaned, transformed datasets ready for loading into Snowflake
+│ └── album_data/
+│ └── artist_data/
+  └── songs_data/
 
 
 ---
