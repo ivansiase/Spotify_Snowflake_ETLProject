@@ -47,7 +47,7 @@ spotify-data-pipeline/
 │   ├── artist_data/
 │   └── songs_data/
 
-
+```
 
 
 ## 📽️ Demo Video
