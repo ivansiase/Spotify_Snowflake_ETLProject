@@ -28,8 +28,7 @@ This pipeline automates the process of extracting data from Spotify, transformin
 
 ---
 
-## 📁 Project Structure
-<pre> ```plaintext spotify-data-pipeline/ ├── AWS lambda/ │ ├── Extract_Spotify_Data.py │ └── Transform_Spotify_Data.py ├── snowflake/ │ ├── Snowflake_SQL.sql │ └── Storage_Integration.sql ├── S3-Sample-Output/ ├── raw-data/ ← stores unprocessed data pulled from Spotify API │ ├── processed/ │ └── to_process/ ├── transform-data/ ← stores cleaned, transformed datasets │ ├── album_data/ │ ├── artist_data/ │ └── songs_data/ ``` </pre>
+<pre> ## 📁 Project Structure ```plaintext spotify-data-pipeline/ ├── AWS lambda/ │ ├── Extract_Spotify_Data.py │ └── Transform_Spotify_Data.py ├── snowflake/ │ ├── Snowflake_SQL.sql │ └── Storage_Integration.sql ├── S3-Sample-Output/ ├── raw-data/ ← stores unprocessed data pulled from Spotify API │ ├── processed/ │ └── to_process/ ├── transform-data/ ← stores cleaned, transformed datasets ready for loading into Snowflake │ ├── album_data/ │ ├── artist_data/ │ └── songs_data/ ``` </pre>
 
 
 
