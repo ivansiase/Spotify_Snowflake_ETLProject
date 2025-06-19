@@ -51,9 +51,12 @@ spotify-data-pipeline/
 
 
 
+
+
 ## 📽️ Demo Video
 
-You can watch the demo video here: [assets/Spotify_Pipeline.mkv](assets/Spotify_Pipeline.mkv)
+You can watch the demo video here: [Spotify_Pipeline.mkv](assets/Spotify_Pipeline.mkv)
+
 
 
 ---
